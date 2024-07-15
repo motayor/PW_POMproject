@@ -1,0 +1,53 @@
+Page Object Modelling Structure
+
+Page layer
+-page objects
+    -locators for each java class/page
+
+PW factory
+-how to init PW [initPlayWright]
+-how init props [initProp()]
+
+Config properties
+-browser = chrome/firefox
+-url = ..........
+-username/pwd
+-headless (boolean)
+
+Test Layer
+-test classes
+-hooks [@test]
+-assertion
+
+BaseTest
+-@BT - setup()
+-AT -tearDown()
+
+Utils/Constants
+-Errors/Exception
+-constants.java
+-ElementUtils.java
+-locators click/fill
+-textEle
+-ExcelUtils.java
+-POI api
+-AppError.java
+-FrameException.java
+
+Test Data
+-excel
+-text
+-apache api
+
+Reports
+-extent report
+-Allure report
+-testNG
+-logs
+-report listeners (allure/extent)
+
+Git Repo
+-branches
+-feature
+
+Jenkins
