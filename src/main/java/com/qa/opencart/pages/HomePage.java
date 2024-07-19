@@ -12,6 +12,9 @@ public class HomePage {
     private String search = "input[name='search']";
     private String searchIcon = "div#search button";
     private String searchPageHeader = "div#content h1";
+    private String myAccountLink = "a[title='My Account']";
+
+    private String LoginLink = "a:text('Login')";
 
     //2. page constructor
     public HomePage(Page page) {
@@ -38,6 +41,12 @@ public class HomePage {
         System.out.println("Search Page header: " + header);
         return header;
 
+    }
+
+    public LoginPage navigateToLoginPage(){
+        page.click(myAccountLink);
+        page.click(LoginLink);  //LoginPage method from the LoginPage class
+        return new LoginPage(page);
     }
 
 

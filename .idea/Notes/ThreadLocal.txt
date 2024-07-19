@@ -1,0 +1,9 @@
+
+ThreadLocal is a Java cobstruct, not a PW's. However, it can be integrated into PW.
+
+The `TheadLocal` construct allows us to store data that will be accessible only by a specific thread.
+
+Simply put, we can imagine that ThreadLocal stores data inside of a map with the thread as the key.
+
+As a result, when we call a get() method on the threadLocalValue, we’ll get an Integer value for
+the requesting thread:

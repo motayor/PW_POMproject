@@ -51,3 +51,6 @@ Git Repo
 -feature
 
 Jenkins
+
+XML Runner files
+- a single file that can run any test class individually or collectively

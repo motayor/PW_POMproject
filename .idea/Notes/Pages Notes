@@ -1,0 +1,12 @@
+
+
+In POM, we create page class for every page that we shall visit and do action on.
+Although, the Page locator will automaticvally look for an elemnet on the current page,
+it is a good practice to create a class for each page so that when the project get complex, we
+can easily make local changes without breaking things in other places.
+
+Also, the methods in each page can be called in other pages for more efficient object modelling.
+
+TIPS
+1. Do not use assertions in your page classes
+2. Do not use PW functions(such as .fill, .click, etc.) in your Test classes
