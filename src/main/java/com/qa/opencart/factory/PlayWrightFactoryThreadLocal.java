@@ -62,7 +62,7 @@ public class PlayWrightFactoryThreadLocal {
         switch (browserName.toLowerCase()){
             case "chromium":
                 //browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-                tlBrowser.set(playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false)));
+                tlBrowser.set(getPlaywright().chromium().launch(new BrowserType.LaunchOptions().setHeadless(false)));
                 break;
             case "safari":
                 //browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
@@ -74,7 +74,7 @@ public class PlayWrightFactoryThreadLocal {
                 break;
             case "chrome":
                 //browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
-                tlBrowser.set(playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false)));
+                tlBrowser.set(getPlaywright().chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false)));
                 break;
             default:
                 System.out.println("Please use acceptable browser names");

@@ -8,35 +8,35 @@
     <artifactId>PW_POMproject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>test</scope>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.10.2</version>
+        <scope>test</scope>
+    </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
-        <dependency>
-            <groupId>com.microsoft.playwright</groupId>
-            <artifactId>playwright</artifactId>
-            <version>1.45.0</version>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
+    <dependency>
+        <groupId>com.microsoft.playwright</groupId>
+        <artifactId>playwright</artifactId>
+        <version>1.45.0</version>
+    </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.1.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.0.6</version>
-            <scope>test</scope>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>5.1.2</version>
+    </dependency>
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>5.0.6</version>
+        <scope>test</scope>
+    </dependency>
 
-    </dependencies>
+</dependencies>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
